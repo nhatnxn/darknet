@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1533162980 source:/home/nhat/darknet2/examples/art.c
+	"darknet.h"
+	<sys/time.h>
+
+1533162980 /home/nhat/darknet2/examples/darknet.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	"cuda_runtime.h"
+	"curand.h"
+	"cublas_v2.h"
+	"cudnn.h"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/core/version.hpp"
+	"opencv2/videoio/videoio_c.h"
+	"opencv2/imgcodecs/imgcodecs_c.h"
+
+1533162980 source:/home/nhat/darknet2/examples/attention.c
+	"darknet.h"
+	<sys/time.h>
+	<assert.h>
+
+1533162980 source:/home/nhat/darknet2/examples/captcha.c
+	"darknet.h"
+
+1533162980 source:/home/nhat/darknet2/examples/cifar.c
+	"darknet.h"
+
+1533162980 source:/home/nhat/darknet2/examples/classifier.c
+	"darknet.h"
+	<sys/time.h>
+	<assert.h>
+
+1533162980 source:/home/nhat/darknet2/examples/coco.c
+	"darknet.h"
+	<stdio.h>
+
+1535366128 source:/home/nhat/darknet2/examples/darknet.c
+	"darknet.h"
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+
+1533162980 source:/home/nhat/darknet2/examples/detector.c
+	"darknet.h"
+
+1535340680 source:/home/nhat/darknet2/test/main.cpp
+	<iostream>
+

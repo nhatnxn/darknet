@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1535513679 source:/home/nhat/darknet2/examples/testdarknet/main.c
+	"darknet.h"
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+

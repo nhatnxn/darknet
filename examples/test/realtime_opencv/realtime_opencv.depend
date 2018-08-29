@@ -1,0 +1,721 @@
+# depslib dependency file v1.0
+1533162980 source:/home/nhat/darknet2/src/activation_layer.c
+	"activation_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 /home/nhat/darknet2/src/activation_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/activations.h
+	"darknet.h"
+	"cuda.h"
+	"math.h"
+
+1533162980 /home/nhat/darknet2/src/cuda.h
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/layer.h
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/network.h
+	"darknet.h"
+	"image.h"
+	"layer.h"
+	"data.h"
+	"tree.h"
+
+1533162980 /home/nhat/darknet2/src/image.h
+	<stdlib.h>
+	<stdio.h>
+	<float.h>
+	<string.h>
+	<math.h>
+	"box.h"
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/box.h
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/data.h
+	<pthread.h>
+	"darknet.h"
+	"matrix.h"
+	"list.h"
+	"image.h"
+	"tree.h"
+
+1533162980 /home/nhat/darknet2/src/matrix.h
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/list.h
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/tree.h
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/utils.h
+	<stdio.h>
+	<time.h>
+	"darknet.h"
+	"list.h"
+
+1533162980 /home/nhat/darknet2/src/blas.h
+	"darknet.h"
+	"cuda.h"
+	"tree.h"
+
+1533162980 /home/nhat/darknet2/src/gemm.h
+
+1533162980 source:/home/nhat/darknet2/src/activations.c
+	"activations.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 source:/home/nhat/darknet2/src/avgpool_layer.c
+	"avgpool_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1533162980 /home/nhat/darknet2/src/avgpool_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/batchnorm_layer.c
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"blas.h"
+	<stdio.h>
+
+1533162980 /home/nhat/darknet2/src/convolutional_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/batchnorm_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/blas.c
+	"blas.h"
+	<math.h>
+	<assert.h>
+	<float.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 source:/home/nhat/darknet2/src/box.c
+	"box.h"
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
+1533162980 source:/home/nhat/darknet2/src/col2im.c
+	<stdio.h>
+	<math.h>
+
+1533162980 source:/home/nhat/darknet2/src/connected_layer.c
+	"connected_layer.h"
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 /home/nhat/darknet2/src/connected_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/convolutional_layer.c
+	"convolutional_layer.h"
+	"utils.h"
+	"batchnorm_layer.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+	"xnor_layer.h"
+
+1533162980 /home/nhat/darknet2/src/im2col.h
+
+1533162980 /home/nhat/darknet2/src/col2im.h
+
+1533162980 source:/home/nhat/darknet2/src/cost_layer.c
+	"cost_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1533162980 /home/nhat/darknet2/src/cost_layer.h
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/crnn_layer.c
+	"crnn_layer.h"
+	"convolutional_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 /home/nhat/darknet2/src/crnn_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/crop_layer.c
+	"crop_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1533162980 /home/nhat/darknet2/src/crop_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/cuda.c
+	"cuda.h"
+	"utils.h"
+	"blas.h"
+	<assert.h>
+	<stdlib.h>
+	<time.h>
+
+1533162980 source:/home/nhat/darknet2/src/data.c
+	"data.h"
+	"utils.h"
+	"image.h"
+	"cuda.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 source:/home/nhat/darknet2/src/deconvolutional_layer.c
+	"deconvolutional_layer.h"
+	"convolutional_layer.h"
+	"batchnorm_layer.h"
+	"utils.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+
+1533162980 /home/nhat/darknet2/src/deconvolutional_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/demo.c
+	"network.h"
+	"detection_layer.h"
+	"region_layer.h"
+	"cost_layer.h"
+	"utils.h"
+	"parser.h"
+	"box.h"
+	"image.h"
+	"demo.h"
+	<sys/time.h>
+
+1533162980 /home/nhat/darknet2/src/detection_layer.h
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/region_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/parser.h
+	"darknet.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/demo.h
+	"image.h"
+
+1533162980 source:/home/nhat/darknet2/src/detection_layer.c
+	"detection_layer.h"
+	"activations.h"
+	"softmax_layer.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1533162980 /home/nhat/darknet2/src/softmax_layer.h
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/dropout_layer.c
+	"dropout_layer.h"
+	"utils.h"
+	"cuda.h"
+	<stdlib.h>
+	<stdio.h>
+
+1533162980 /home/nhat/darknet2/src/dropout_layer.h
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/gemm.c
+	"gemm.h"
+	"utils.h"
+	"cuda.h"
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1533162980 source:/home/nhat/darknet2/src/gru_layer.c
+	"gru_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 /home/nhat/darknet2/src/gru_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/im2col.c
+	"im2col.h"
+	<stdio.h>
+
+1533162980 source:/home/nhat/darknet2/src/image.c
+	"image.h"
+	"utils.h"
+	"blas.h"
+	"cuda.h"
+	<stdio.h>
+	<math.h>
+	"stb_image.h"
+	"stb_image_write.h"
+
+1533162980 /home/nhat/darknet2/src/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1533162980 /home/nhat/darknet2/src/stb_image_write.h
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1533162980 source:/home/nhat/darknet2/src/l2norm_layer.c
+	"l2norm_layer.h"
+	"activations.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1533162980 /home/nhat/darknet2/src/l2norm_layer.h
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/layer.c
+	"layer.h"
+	"cuda.h"
+	<stdlib.h>
+
+1533162980 source:/home/nhat/darknet2/src/list.c
+	<stdlib.h>
+	<string.h>
+	"list.h"
+
+1533162980 source:/home/nhat/darknet2/src/local_layer.c
+	"local_layer.h"
+	"utils.h"
+	"im2col.h"
+	"col2im.h"
+	"blas.h"
+	"gemm.h"
+	<stdio.h>
+	<time.h>
+
+1533162980 /home/nhat/darknet2/src/local_layer.h
+	"cuda.h"
+	"image.h"
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/logistic_layer.c
+	"logistic_layer.h"
+	"activations.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1533162980 /home/nhat/darknet2/src/logistic_layer.h
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/lstm_layer.c
+	"lstm_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 /home/nhat/darknet2/src/lstm_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/matrix.c
+	"matrix.h"
+	"utils.h"
+	"blas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+
+1533162980 source:/home/nhat/darknet2/src/maxpool_layer.c
+	"maxpool_layer.h"
+	"cuda.h"
+	<stdio.h>
+
+1533162980 /home/nhat/darknet2/src/maxpool_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/network.c
+	<stdio.h>
+	<time.h>
+	<assert.h>
+	"network.h"
+	"image.h"
+	"data.h"
+	"utils.h"
+	"blas.h"
+	"crop_layer.h"
+	"connected_layer.h"
+	"gru_layer.h"
+	"rnn_layer.h"
+	"crnn_layer.h"
+	"local_layer.h"
+	"convolutional_layer.h"
+	"activation_layer.h"
+	"detection_layer.h"
+	"region_layer.h"
+	"yolo_layer.h"
+	"normalization_layer.h"
+	"batchnorm_layer.h"
+	"maxpool_layer.h"
+	"reorg_layer.h"
+	"avgpool_layer.h"
+	"cost_layer.h"
+	"softmax_layer.h"
+	"dropout_layer.h"
+	"route_layer.h"
+	"upsample_layer.h"
+	"shortcut_layer.h"
+	"parser.h"
+	"data.h"
+
+1533162980 /home/nhat/darknet2/src/rnn_layer.h
+	"activations.h"
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/yolo_layer.h
+	"darknet.h"
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/normalization_layer.h
+	"image.h"
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/reorg_layer.h
+	"image.h"
+	"cuda.h"
+	"layer.h"
+	"network.h"
+
+1533162980 /home/nhat/darknet2/src/route_layer.h
+	"network.h"
+	"layer.h"
+
+1533162980 /home/nhat/darknet2/src/upsample_layer.h
+	"darknet.h"
+
+1533162980 /home/nhat/darknet2/src/shortcut_layer.h
+	"layer.h"
+	"network.h"
+
+1533162980 source:/home/nhat/darknet2/src/normalization_layer.c
+	"normalization_layer.h"
+	"blas.h"
+	<stdio.h>
+
+1533162980 source:/home/nhat/darknet2/src/option_list.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"option_list.h"
+	"utils.h"
+
+1533162980 /home/nhat/darknet2/src/option_list.h
+	"list.h"
+
+1533162980 source:/home/nhat/darknet2/src/parser.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	"activation_layer.h"
+	"logistic_layer.h"
+	"l2norm_layer.h"
+	"activations.h"
+	"avgpool_layer.h"
+	"batchnorm_layer.h"
+	"blas.h"
+	"connected_layer.h"
+	"deconvolutional_layer.h"
+	"convolutional_layer.h"
+	"cost_layer.h"
+	"crnn_layer.h"
+	"crop_layer.h"
+	"detection_layer.h"
+	"dropout_layer.h"
+	"gru_layer.h"
+	"list.h"
+	"local_layer.h"
+	"maxpool_layer.h"
+	"normalization_layer.h"
+	"option_list.h"
+	"parser.h"
+	"region_layer.h"
+	"yolo_layer.h"
+	"reorg_layer.h"
+	"rnn_layer.h"
+	"route_layer.h"
+	"upsample_layer.h"
+	"shortcut_layer.h"
+	"softmax_layer.h"
+	"lstm_layer.h"
+	"utils.h"
+
+1533162980 source:/home/nhat/darknet2/src/region_layer.c
+	"region_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1533162980 source:/home/nhat/darknet2/src/reorg_layer.c
+	"reorg_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1533162980 source:/home/nhat/darknet2/src/rnn_layer.c
+	"rnn_layer.h"
+	"connected_layer.h"
+	"utils.h"
+	"cuda.h"
+	"blas.h"
+	"gemm.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533162980 source:/home/nhat/darknet2/src/route_layer.c
+	"route_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1533162980 source:/home/nhat/darknet2/src/shortcut_layer.c
+	"shortcut_layer.h"
+	"cuda.h"
+	"blas.h"
+	"activations.h"
+	<stdio.h>
+	<assert.h>
+
+1533162980 source:/home/nhat/darknet2/src/softmax_layer.c
+	"softmax_layer.h"
+	"blas.h"
+	"cuda.h"
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+
+1533162980 source:/home/nhat/darknet2/src/tree.c
+	<stdio.h>
+	<stdlib.h>
+	"tree.h"
+	"utils.h"
+	"data.h"
+
+1533162980 source:/home/nhat/darknet2/src/upsample_layer.c
+	"upsample_layer.h"
+	"cuda.h"
+	"blas.h"
+	<stdio.h>
+
+1533162980 source:/home/nhat/darknet2/src/utils.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+	<unistd.h>
+	<float.h>
+	<limits.h>
+	<time.h>
+	<sys/time.h>
+	"utils.h"
+
+1533162980 source:/home/nhat/darknet2/src/yolo_layer.c
+	"yolo_layer.h"
+	"activations.h"
+	"blas.h"
+	"box.h"
+	"cuda.h"
+	"utils.h"
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+
+1533162980 source:/home/nhat/darknet2/examples/art.c
+	"darknet.h"
+	<sys/time.h>
+
+1533162980 /home/nhat/darknet2/examples/darknet.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<pthread.h>
+	"cuda_runtime.h"
+	"curand.h"
+	"cublas_v2.h"
+	"cudnn.h"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/core/version.hpp"
+	"opencv2/videoio/videoio_c.h"
+	"opencv2/imgcodecs/imgcodecs_c.h"
+
+1533162980 source:/home/nhat/darknet2/examples/attention.c
+	"darknet.h"
+	<sys/time.h>
+	<assert.h>
+
+1533162980 source:/home/nhat/darknet2/examples/captcha.c
+	"darknet.h"
+
+1533162980 source:/home/nhat/darknet2/examples/cifar.c
+	"darknet.h"
+
+1533162980 source:/home/nhat/darknet2/examples/classifier.c
+	"darknet.h"
+	<sys/time.h>
+	<assert.h>
+
+1533162980 source:/home/nhat/darknet2/examples/coco.c
+	"darknet.h"
+	<stdio.h>
+
+1535515898 source:/home/nhat/darknet2/examples/darknet.c
+	"darknet.h"
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+
+1533162980 source:/home/nhat/darknet2/examples/detector.c
+	"darknet.h"
+

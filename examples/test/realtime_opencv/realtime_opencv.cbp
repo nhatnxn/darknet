@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="realtime_opencv" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/realtime_opencv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../../usr/include/darknet.h" />
+					<Add library="../../../libdarknet.a" />
+					<Add library="../../../libdarknet.so" />
+					<Add library="../../../obj/activation_kernels.o" />
+					<Add library="../../../obj/activation_layer.o" />
+					<Add library="../../../obj/activations.o" />
+					<Add library="../../../obj/art.o" />
+					<Add library="../../../obj/avgpool_layer.o" />
+					<Add library="../../../obj/avgpool_layer_kernels.o" />
+					<Add library="../../../obj/batchnorm_layer.o" />
+					<Add library="../../../obj/blas.o" />
+					<Add library="../../../obj/blas_kernels.o" />
+					<Add library="../../../obj/box.o" />
+					<Add library="../../../obj/captcha.o" />
+					<Add library="../../../obj/cifar.o" />
+					<Add library="../../../obj/classifier.o" />
+					<Add library="../../../obj/coco.o" />
+					<Add library="../../../obj/col2im.o" />
+					<Add library="../../../obj/col2im_kernels.o" />
+					<Add library="../../../obj/connected_layer.o" />
+					<Add library="../../../obj/convolutional_kernels.o" />
+					<Add library="../../../obj/convolutional_layer.o" />
+					<Add library="../../../obj/cost_layer.o" />
+					<Add library="../../../obj/crnn_layer.o" />
+					<Add library="../../../obj/crop_layer.o" />
+					<Add library="../../../obj/crop_layer_kernels.o" />
+					<Add library="../../../obj/cuda.o" />
+					<Add library="../../../obj/darknet.o" />
+					<Add library="../../../obj/data.o" />
+					<Add library="../../../obj/deconvolutional_kernels.o" />
+					<Add library="../../../obj/deconvolutional_layer.o" />
+					<Add library="../../../obj/demo.o" />
+					<Add library="../../../obj/detection_layer.o" />
+					<Add library="../../../obj/detector.o" />
+					<Add library="../../../obj/dropout_layer.o" />
+					<Add library="../../../obj/dropout_layer_kernels.o" />
+					<Add library="../../../obj/gemm.o" />
+					<Add library="../../../obj/go.o" />
+					<Add library="../../../obj/gru_layer.o" />
+					<Add library="../../../obj/im2col.o" />
+					<Add library="../../../obj/im2col_kernels.o" />
+					<Add library="../../../obj/image.o" />
+					<Add library="../../../obj/l2norm_layer.o" />
+					<Add library="../../../obj/layer.o" />
+					<Add library="../../../obj/list.o" />
+					<Add library="../../../obj/local_layer.o" />
+					<Add library="../../../obj/logistic_layer.o" />
+					<Add library="../../../obj/lsd.o" />
+					<Add library="../../../obj/lstm_layer.o" />
+					<Add library="../../../obj/matrix.o" />
+					<Add library="../../../obj/maxpool_layer.o" />
+					<Add library="../../../obj/maxpool_layer_kernels.o" />
+					<Add library="../../../obj/network.o" />
+					<Add library="../../../obj/nightmare.o" />
+					<Add library="../../../obj/normalization_layer.o" />
+					<Add library="../../../obj/option_list.o" />
+					<Add library="../../../obj/parser.o" />
+					<Add library="../../../obj/region_layer.o" />
+					<Add library="../../../obj/regressor.o" />
+					<Add library="../../../obj/reorg_layer.o" />
+					<Add library="../../../obj/rnn.o" />
+					<Add library="../../../obj/rnn_layer.o" />
+					<Add library="../../../obj/route_layer.o" />
+					<Add library="../../../obj/segmenter.o" />
+					<Add library="../../../obj/shortcut_layer.o" />
+					<Add library="../../../obj/softmax_layer.o" />
+					<Add library="../../../obj/super.o" />
+					<Add library="../../../obj/tag.o" />
+					<Add library="../../../obj/tree.o" />
+					<Add library="../../../obj/upsample_layer.o" />
+					<Add library="../../../obj/utils.o" />
+					<Add library="../../../obj/yolo.o" />
+					<Add library="../../../obj/yolo_layer.o" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/realtime_opencv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../../include/darknet.h" />
+		<Unit filename="../../../src/activation_kernels.cu" />
+		<Unit filename="../../../src/activation_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/activation_layer.h" />
+		<Unit filename="../../../src/activations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/activations.h" />
+		<Unit filename="../../../src/avgpool_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/avgpool_layer.h" />
+		<Unit filename="../../../src/avgpool_layer_kernels.cu" />
+		<Unit filename="../../../src/batchnorm_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/batchnorm_layer.h" />
+		<Unit filename="../../../src/blas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/blas.h" />
+		<Unit filename="../../../src/blas_kernels.cu" />
+		<Unit filename="../../../src/box.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/box.h" />
+		<Unit filename="../../../src/classifier.h" />
+		<Unit filename="../../../src/col2im.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/col2im.h" />
+		<Unit filename="../../../src/col2im_kernels.cu" />
+		<Unit filename="../../../src/connected_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/connected_layer.h" />
+		<Unit filename="../../../src/convolutional_kernels.cu" />
+		<Unit filename="../../../src/convolutional_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/convolutional_layer.h" />
+		<Unit filename="../../../src/cost_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/cost_layer.h" />
+		<Unit filename="../../../src/crnn_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/crnn_layer.h" />
+		<Unit filename="../../../src/crop_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/crop_layer.h" />
+		<Unit filename="../../../src/crop_layer_kernels.cu" />
+		<Unit filename="../../../src/cuda.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/cuda.h" />
+		<Unit filename="../../../src/data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/data.h" />
+		<Unit filename="../../../src/deconvolutional_kernels.cu" />
+		<Unit filename="../../../src/deconvolutional_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/deconvolutional_layer.h" />
+		<Unit filename="../../../src/demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/demo.h" />
+		<Unit filename="../../../src/detection_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/detection_layer.h" />
+		<Unit filename="../../../src/dropout_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/dropout_layer.h" />
+		<Unit filename="../../../src/dropout_layer_kernels.cu" />
+		<Unit filename="../../../src/gemm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/gemm.h" />
+		<Unit filename="../../../src/gru_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/gru_layer.h" />
+		<Unit filename="../../../src/im2col.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/im2col.h" />
+		<Unit filename="../../../src/im2col_kernels.cu" />
+		<Unit filename="../../../src/image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/image.h" />
+		<Unit filename="../../../src/l2norm_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/l2norm_layer.h" />
+		<Unit filename="../../../src/layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/layer.h" />
+		<Unit filename="../../../src/list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/list.h" />
+		<Unit filename="../../../src/local_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/local_layer.h" />
+		<Unit filename="../../../src/logistic_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/logistic_layer.h" />
+		<Unit filename="../../../src/lstm_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/lstm_layer.h" />
+		<Unit filename="../../../src/matrix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/matrix.h" />
+		<Unit filename="../../../src/maxpool_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/maxpool_layer.h" />
+		<Unit filename="../../../src/maxpool_layer_kernels.cu" />
+		<Unit filename="../../../src/network.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/network.h" />
+		<Unit filename="../../../src/normalization_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/normalization_layer.h" />
+		<Unit filename="../../../src/option_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/option_list.h" />
+		<Unit filename="../../../src/parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/parser.h" />
+		<Unit filename="../../../src/region_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/region_layer.h" />
+		<Unit filename="../../../src/reorg_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/reorg_layer.h" />
+		<Unit filename="../../../src/rnn_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/rnn_layer.h" />
+		<Unit filename="../../../src/route_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/route_layer.h" />
+		<Unit filename="../../../src/shortcut_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/shortcut_layer.h" />
+		<Unit filename="../../../src/softmax_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/softmax_layer.h" />
+		<Unit filename="../../../src/stb_image.h" />
+		<Unit filename="../../../src/stb_image_write.h" />
+		<Unit filename="../../../src/tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/tree.h" />
+		<Unit filename="../../../src/upsample_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/upsample_layer.h" />
+		<Unit filename="../../../src/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/utils.h" />
+		<Unit filename="../../../src/yolo_layer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../src/yolo_layer.h" />
+		<Unit filename="../../art.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../attention.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../captcha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cifar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../classifier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../coco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../darknet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../darknet.h" />
+		<Unit filename="../../detector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../dice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../go.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../lsd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../nightmare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../regressor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../rnn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../rnn_vid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../segmenter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../super.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../swag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../tag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../voxel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../writing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../yolo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../yolo.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
